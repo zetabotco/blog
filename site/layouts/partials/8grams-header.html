@@ -9,24 +9,18 @@
       "
     >
       <img
-        src="{{.Site.Params.pathUrl}}/img/logo.svg"
+        src="/{{.Site.Params.pathUrl}}/img/logo.svg"
         class="lx-logo"
         alt="icx-logo"
         onclick="goTo('/')"
       />
       <div class="lx-menus in-desktop">
         <a href="/pricing">Pricing</a>
-        <a href="/blog">Blog</a>
+        <a href="/{{.Site.Params.pathUrl}}">Blog</a>
       </div>
     </div>
-    <div class="lx-header-right in-desktop">
-        <form class="lx-subscribe">
-          <input class="lx-input" type="email" placeholder="Your email address" />
-          <button class="lx-button lx-item" type="submit">Subscribe</button>
-        </form>
-    </div>
     <img
-      src="{{.Site.Params.pathUrl}}/img/hamburgerMenu.svg"
+      src="/{{.Site.Params.pathUrl}}/img/hamburgerMenu.svg"
       alt="menu-mobile"
       class="in-mobile menu"
       onclick="toggleMenu()"
@@ -55,7 +49,7 @@
         onclick="closeModal()"
       >
         <img
-          src="{{.Site.Params.pathUrl}}/img/close-ic.svg"
+          src="/{{.Site.Params.pathUrl}}/img/close-ic.svg"
           alt="close"
           style="width: 20px; height: 20px; filter: brightness(0%)"
         />
@@ -73,14 +67,14 @@
     >
       <a class="lx-item" style="margin-right: 48px" href="#">
         <img
-          src="{{.Site.Params.pathUrl}}/img/google-play.svg"
+          src="/{{.Site.Params.pathUrl}}/img/google-play.svg"
           alt="play-store"
           style="width: 100%; height: 100%"
         />
       </a>
       <a class="lx-item" href="#">
         <img
-          src="{{.Site.Params.pathUrl}}/img/app-store.svg"
+          src="/{{.Site.Params.pathUrl}}/img/app-store.svg"
           alt="app-store"
           style="width: 100%; height: 100%"
         />
@@ -95,10 +89,6 @@
       <a href="#" class="menu-item">Solutions</a>
       <a href="#" class="menu-item">Resource</a>
       <a href="#" class="menu-item">Pricing</a>
-      <form class="lx-subscribe">
-        <input class="lx-input" type="email" placeholder="Your email address" />
-        <button class="lx-button lx-item" type="submit">Subscribe</button>
-      </form>
     </div>
   </div>
 

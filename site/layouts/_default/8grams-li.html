@@ -22,6 +22,7 @@
     align-items: flex-start;
     justify-content: space-between;
     padding-top: 16px;
+    padding-bottom: 24px;
     position: relative;
     width: 100%;
     height: 100%;
@@ -94,7 +95,7 @@
 </style>
 
 <div style="margin: 10px; width: 100%">
-  <a href="{{ .RelPermalink }}" class="item-card" style="width: 100%">
+  <div class="item-card" style="width: 100%">
     {{if .Params.image}} {{if in .Params.image "http"}}
     <div class="image">
       <img
@@ -109,7 +110,7 @@
     <div class="image">
       <img
         loading="lazy"
-        src="{{.Site.Params.pathUrl}}/{{.Params.image}}"
+        src="/{{.Site.Params.pathUrl}}/{{.Params.image}}"
         class="image"
         alt="{{.Params.title}}"
         title="{{.Params.title}}"
@@ -130,7 +131,7 @@
     <div class="image">
       <img
         loading="lazy"
-        src="{{.Site.Params.pathUrl}}/{{.Params.featuredImage.src}}"
+        src="/{{.Site.Params.pathUrl}}/{{.Params.featuredImage.src}}"
         class="image"
         alt="{{.Params.featuredImage.alt}}"
         title="{{.Params.featuredImage.title}}"
@@ -144,21 +145,24 @@
           <div>{{ .Params.author }}</div>
         </div>
         <div class="time">
-          <img src="{{.Site.Params.pathUrl}}/img/round-time.svg" alt="time" />
+          <img src="/{{.Site.Params.pathUrl}}/img/round-time.svg" alt="time" />
           <div>{{ .ReadingTime }} m</div>
         </div>
       </div>
-      <div class="category">{{ range .Params.tag }}#{{ . }} {{ end }}</div>
+      <div class="category">
+        {{ range .Params.category }}<a href="{{$.Site.Params.pathUrl}}/category/{{. | urlize }}">#{{ . }}</a>{{ end }}
+      
+      </div>
       <div class="title">{{.Params.title}}</div>
-      <div class="btn-read">
+      <a class="btn-read" href="/{{.Site.Params.lang}}{{ .RelPermalink }}">
         Lebih Lengkap
         <img
-          src="{{.Site.Params.pathUrl}}/img/arrow-right.svg"
+          src="/{{.Site.Params.pathUrl}}/img/arrow-right.svg"
           alt="read-more"
           height="10px"
           style="margin-top: 1px; margin-left: 4px"
         />
-      </div>
+      </a>
     </div>
-  </a>
+  </div>
 </div>
