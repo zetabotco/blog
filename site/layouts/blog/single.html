@@ -35,7 +35,7 @@
       style="display: flex; flex-direction: row; cursor: pointer"
       onclick="window.location.href = '/{{.Site.Params.pathUrl}}/author/{{.Params.author | urlize}}'"
     >
-      Author&nbsp;
+      Penulis&nbsp;
       <div style="color: #593ca5">{{.Params.author}}</div>
     </div>
     <p style="margin-top: 0px">•</p>
@@ -105,13 +105,13 @@
     {{with .Next}}
     <a title="Previous Page" href="{{.Permalink}}">
       <i class="fas fa-arrow-left"></i>
-      <span>Previous</span>
+      <span>Sebelumnya</span>
     </a>
     {{ else }}
     <div>&nbsp;</div>
     {{ end }} {{with .Prev}}
     <a title="Previous Page" href="{{.Permalink}}">
-      <span>Next</span>
+      <span>Berikutnya</span>
       <i class="fas fa-arrow-right"></i>
     </a>
     {{ else }}
