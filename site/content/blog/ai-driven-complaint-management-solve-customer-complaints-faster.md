@@ -20,7 +20,7 @@ featuredImage:
   alt: Complain Management Sistem With AI
   title: Complain Management Sistem With AI
 ---
-Have you ever thought if your customers are disappointed because you respond to complaints they experience that do not meet their expectations? or have you ever felt your customers just disappear because you were late in responding to the complaints they submitted?
+Have you ever  wondered if your customers are disappointed because you respond to complaints they experience that do not meet their expectations? or have you ever felt your customers just disappear because you were late in responding to the complaints they submitted?
 
 Forbes said that 63% of your customers will leave you after they got one bad experience from your company and more than 60% would not want to wait for your response longer than 2 minutes. Of course, you will be annoyed if you are late in responding to complaints from your customers and your customers just leave you without a word. A great complaint management system will be your best solution to overcome these problems.
 
@@ -60,13 +60,13 @@ Through analysis of these complaints, the AI algorithm can decide that the slow 
 
 > While AI processes and categorizes complaints from customers, AI automatically responds to these complaints with appropriate responses according to the experiences learned by AI itself.
 
-There's something exciting about using AI in a complaint management system, like we have a really smart detective who can connect the dots. By analyzing the historical data of complaints from other customers. AI algorithms can detect recurring issues, common themes and emerging patterns that may not be so obvious to us.
+There's something exciting about using AI in a complaint management system, like  a really smart detective who can connect the dots. By analyzing the historical data of complaints from other customers. AI algorithms can detect recurring issues, common themes, and emerging patterns that may not be so obvious to us. having 
 
 With AI, companies can proactively address problems, improve their products or services, and provide great customer experiences. By preventing future problems, they can forge strong customer relationships and uphold an excellent reputation. It's like having a reliable sidekick that helps you keep your customers happy and loyal. The potential of AI in identifying trends and patterns is truly transformative in the field of complaint management.
 
 ## Implementing an AI-Driven Complaint Management System
 
-In implementing AI into a complaint management system, we need to prepare a system combination of NLP techniques to understand the classification of customer complaints including:
+In implementing AI into a complaint management system, we need to prepare a system combination of NLP techniques to understand the classification of customer complaints, including:
 
 * **Language modeling:** Preparation of the system using a pre-trained language model to understand the context and meaning of the complaint
 * **Sentiment Analysis:** Aims to determine the emotional tone of the complaint, whether positive or negative.
@@ -74,8 +74,6 @@ In implementing AI into a complaint management system, we need to prepare a syst
 * **Natural Language Generation:** Use of NLP to create personalized customer-directed complaint responses and provide solutions where available
 * **Data Mining and Machine Learning:** Functions to study previous company historical data and detect recurring problems.
 * **Escalation:** If the system cannot resolve the complaint, the system will forward it to the right department.
-
-
 
 When you are ready for a complaint management system with AI, you need to find what works best for your company. You will need a robust AI platform that offers a wide range of functions and capabilities, allowing you to adapt your complaint management system to your needs. A clear example of using a good AI-Driven complaint management system is KLM. The airline company from the Netherlands has managed to overcome repeated questions that do not need human intervention. KLM managed to increase answer accuracy by 55% from January - June 2018.
 
